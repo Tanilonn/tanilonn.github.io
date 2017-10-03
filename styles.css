@@ -1,0 +1,150 @@
+body{
+	background-color: #9db9ce;
+}
+button{
+	background-color: #6d6d6d;
+	border-radius: 50%;
+	color: #ececec;
+	border: none;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+h2{
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	color: #ececec;
+}
+p{
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	color: #ececec;
+}
+.words{
+	text-align: right;
+	float: right;
+	color: #6d6d6d;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	padding-right: 40px;
+	padding-top: 3vh;
+	text-decoration:none;
+}
+#dark{
+	margin-left: 20px;
+	height: 9vh;
+	margin-top: 1px;
+}
+#imgcontent{
+	height: 50vh;
+}
+#menu{
+	height: 10vh;
+	width: 100vw;
+	position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #ececec;
+}
+#header{
+	height: 90vh;
+	width: 100vw;
+	position: fixed; /* Stay in place */
+    top: 10vh;
+    right: 0;
+    background-image: url("dog2.jpg");
+    background-repeat: no-repeat;
+    background-size: 140%;
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    display: inline-block;
+}
+#about{
+	width: 30vw;
+	background-color: #9db9ce;
+    padding-top: 60px; /* Place content 60px from the top */
+    margin-left: 6vw;
+    text-align: justify;
+}
+#prices{
+	width: 30vw;
+	background-color: #9db9ce;
+    padding-top: 60px; /* Place content 60px from the top */
+    margin-left: 12vw;
+    text-align: justify;
+}
+#contact{
+	width: 30vw;
+	background-color: #9db9ce;
+    padding-top: 60px; /* Place content 60px from the top */
+    margin-left: 6vw;
+    text-align: center;
+}
+
+#imgabout{
+	height: 40vh;
+	float: right;
+	margin-right: 15vw;
+	transition: 0.5s; 
+}
+
+
+#imgprices{
+	height: 40vh;
+	float: right;
+	margin-right: 15vw; 
+	transition: 0.5s;
+}
+
+
+#imgcontact{
+	height: 40vh;
+	float: right;
+	margin-right: 15vw; 
+	transition: 0.5s;
+}
+
+
+/*for smartphones and other small screens*/
+@media only screen and (max-width: 700px){
+	#about{
+		width: 70vw;
+		background-color: #9db9ce;
+	    padding-top: 60px; /* Place content 60px from the top */
+	    margin-left: 10vw;
+	    text-align: justify;
+	}
+	#prices{
+		width: 70vw;
+		background-color: #9db9ce;
+	    padding-top: 60px; /* Place content 60px from the top */
+	    margin-left: 15vw;
+	    text-align: justify;
+	}
+	#contact{
+		width: 70vw;
+		background-color: #9db9ce;
+	    padding-top: 60px; /* Place content 60px from the top */
+	    margin-left: 10vw;
+	    text-align: center;
+	}
+		#imgabout{
+		display: none;
+	}
+
+	#imgprices{
+		display: none;
+	}
+
+	#imgcontact{
+		display: none;
+	}
+	#pawsone{
+		display: none;
+	}
+	#pawstwo{
+		display: none;
+	}
+
+
+}
